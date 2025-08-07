@@ -1,0 +1,10 @@
+export class BankService {
+    /**
+   * Redact the csv data
+   * @param csv data
+   * @returns redacted csv data
+   */
+  public static getBankStatement() : string {
+    return "Date,Description,Amount,Type,Account Holder,Account Number,Card Number,Memo 2025-05-01,Walmart Supercenter,-45.67,Debit,John Doe,123456789,4111111111111111,Groceries for weekend 2025-05-02,Starbucks,-5.20,Debit,John Doe,123456789,4111111111111111,Latte 2025-05-03,Amazon Marketplace,-123.45,Debit,John Doe,123456789,4111111111111111,Gift for Mary 2025-05-04,Payroll + Bonus,+5000.00,Credit,John Doe,123456789,,Monthly salary 2025-05-05,Uber Eats,-25.00,Debit,John Doe,123456789,4111111111111111,Food delivery 2025-05-06,Apple Subscription,-9.99,Debit,John Doe,123456789,4111111111111111,Cloud storage 2025-05-07,Southwest Airlines,-450.00,Debit,John Doe,123456789,4111111111111111,Flight to NYC 2025-05-08,Zelle Transfer to Jane Smith,-100.00,Debit,John Doe,123456789,,Personal transfer";
+  }
+}
